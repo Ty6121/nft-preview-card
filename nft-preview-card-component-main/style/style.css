@@ -1,0 +1,121 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+
+}
+
+
+body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section-uno {
+    padding: 40px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 13px 13px hsl(216, 70%, 8%);
+
+}
+
+.top-img {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+}
+
+.header {
+    font-size: 19px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 60px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    color: rgba(233, 221, 221, 0.664);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    line-height: 10px;
+
+}
+
+.random {
+    font-size: 20px;
+    color: rgba(233, 221, 221, 0.664);
+}
+
+
+.numb {
+    font-size: 20px;
+    color: hsl(178, 100%, 50%);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.clock {
+    size: 10px;
+    margin-left: 80px;
+}
+
+.diamond {
+    size: 10px;
+}
+
+.line {
+    border-top: 10px blue;
+}
+
+.guy {
+    width: 40px;
+    height: auto;
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 20px;
+}
+
+.jules {
+    color: rgb(221, 212, 212);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.color {
+    color: rgba(233, 221, 221, 0.664);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
